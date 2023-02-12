@@ -46,25 +46,23 @@ body {
     justify-content: space-between;
     padding: 1rem;
   }
-  
-  .odd-article{
+
+  article{
     background-color: #7f8c8d;
     border: 1px solid #34495e;
     padding: 1rem;
     width: calc(33.33% - 10px);
-    animation: slide-in-left 0.5s ease-out;
     border-radius: 10px;
     margin: 10px;
+
   }
   
-  .even-article {
-    background-color: #7f8c8d;
-    border: 1px solid #34495e;
-    padding: 1rem;
-    width: calc(33.33% - 10px);
-    animation: slide-in-right 0.5s ease-out;
-    border-radius: 10px;
-    margin: 10px;
+  .right{
+    animation: slide-in-left 1.25s ease-out;
+  }
+  
+  .left {
+    animation: slide-in-right 1.25s ease-out;
   }
   
   @keyframes slide-in-left {
