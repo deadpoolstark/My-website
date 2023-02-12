@@ -58,7 +58,7 @@ body {
     padding: 1rem;
   }
   
-  article:nth-of-type(1) {
+  .odd-article{
     background-color: #7f8c8d;
     border: 1px solid #34495e;
     padding: 1rem;
@@ -68,7 +68,7 @@ body {
     margin: 10px;
   }
   
-  article:nth-of-type(2) {
+  .even-article {
     background-color: #7f8c8d;
     border: 1px solid #34495e;
     padding: 1rem;
